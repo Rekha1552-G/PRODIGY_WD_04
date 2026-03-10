@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav>
+      <h2>MyPortfolio</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="home">
+      <div class="home-content">
+        <h1>Hello, I'm <span>Rekha Rajput</span></h1>
+        <p>
+          I'm a passionate Web Developer who loves building modern and
+          responsive websites using HTML, CSS, JavaScript, and modern
+          frameworks.
+        </p>
+        <button onclick="scrollToContact()">contact Me</button>
+      </div>
+
+      <div class="profile-img">
+        <img src="https://via.placeholder.com/250" alt="profile" />
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <div class="about-container">
+        <p>
+          I am a dedicated web developer with a passion for creating beautiful
+          and functional websites. I specialize in front-end development and
+          enjoy transforming ideas into interactive digital experiences.
+        </p>
+
+        <br />
+
+        <p>Education: Bachelor’s Degree in Computer Science</p>
+
+        <p>
+          Experience: Worked on multiple web projects including portfolio
+          websites, web apps, and responsive landing pages.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+      <h2>My Skills</h2>
+
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Git</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <h3>Weather App</h3>
+          <p>
+            A web app that displays real-time weather information using API.
+          </p>
+          <a href="http://weather-app.com" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Tic Tac Toe Game</h3>
+          <p>An interactive browser game built with JavaScript.</p>
+          <a href="http://tic-tac-toe.com" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+          <h3>Stopwatch App</h3>
+          <p>A fully functional stopwatch with lap recording.</p>
+          <a href="http://stopwatch-app.com" target="_blank">View Project</a>
+          <!-- <a href="http://stopwatch-app.com" target="_blank">View Project</a> -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <div class="contact">
+        <input type="text" placeholder="Rekha Rajput" /><br />
+        <input type="email" placeholder="rajputrekha1552@gmail.com" /><br />
+        <textarea rows="5" placeholder="Your Message"></textarea><br />
+
+        <button>Send Message</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>© 2026 Rekha | Web Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
